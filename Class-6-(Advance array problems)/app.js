@@ -121,6 +121,22 @@
 // console.log(merge)
 
 
+//? Merge in single array - 
+
+// let arr1 = [1,2,3]
+// let arr2 = [4,5,6]
+// let result = []
+
+// for(let i=0; i<arr1.length; i++){
+//     result.push(arr1[i])
+// }
+// for(let i=0; i<arr2.length; i++){           //*  let result = arr1.concat(arr2) console.log(result)
+
+//     result.push(arr2[i])
+// }
+// console.log(result)
+
+
 
 //! Sort the color (leetcode question - 75)
 
@@ -158,3 +174,42 @@
 // }; 
 
 //! Trapping rain water (LeetCode - 42 )
+
+
+
+
+
+
+
+//? Merge array and remove duplicates
+
+// let arr1 = [1, 2, 3, 4];
+// let arr2 = [3, 4, 5, 6];
+
+// let result = []
+
+// for(let i=0; i<arr1.length; i++){
+//     result.push(arr1[i])
+// }
+// for(let i=0; i<arr2.length; i++){
+//     if(!result.includes(arr2[i])){
+//         result.push(arr2[i])
+//     }
+// }
+// console.log(result)
+
+
+
+//?  Merge nested array into one array
+
+// let arr = [[1, 2], [3, 4], [5, 6]]
+// let result = arr.flat()
+// console.log(result)
+
+
+// let arr1 = [5, 1, 3]
+// let arr2 = [2, 6, 4]
+
+// let result = [...arr1, ...arr2] 
+// result.sort((a, b)=> a- b)
+// console.log(result)
